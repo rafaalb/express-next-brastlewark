@@ -1,0 +1,15 @@
+{
+  "extends": "airbnb-base",
+  "plugins": [
+      "import"
+  ],
+  "rules": {
+      "arrow-parens": "off",
+      "indent": "off",
+      "no-underscore-dangle": "off",
+      "object-curly-newline": "off"
+  },
+  "env": {
+      "jest": true
+  }
+}
